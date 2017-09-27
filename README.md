@@ -1,7 +1,5 @@
 # XcodeReactDevTools
 
-xcode react-devtools memory
-
 when I keep `react-devtools` opened, the xcode memory grows fast:
 
 ![image](./screenshots/QQ20170927-0@2x.png)
