@@ -14,7 +14,7 @@ reproduction step:
 * run this project in xcode
 * open `Debug JS Remotely`
 * view the xcode memory graph
-* you should see that the memory grows, as the time goes on.
+* you should see that the memory grows fast, as time goes on.
 * then close `react-devtools`
 * you should see that the memory becomes smooth.
 
