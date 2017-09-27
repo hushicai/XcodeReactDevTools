@@ -12,6 +12,7 @@ reproduction step:
 
 * open `react-devtools` with official app or `react-native-debugger`
 * run this project in xcode
+* open `Debug JS Remotely`
 * view the xcode memory graph
 * you should see that the memory grows, as the time goes on.
 * then close `react-devtools`
