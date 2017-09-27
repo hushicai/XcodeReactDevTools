@@ -90,6 +90,12 @@ class App extends React.Component {
   componentDidMount() {
     this._timer = setInterval(this._tick, 1000);
   }
+  componentWillUnmount() {
+    if(this._timer) {
+      clearInterval(this._timer);
+      this._timer = null;
+    }
+  }
   render() {
     return (
       <FlatList
